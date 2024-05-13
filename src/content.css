@@ -1,0 +1,97 @@
+.middle{
+    background-image: url("./assets/images/family.png");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    object-fit: cover;
+    object-position: center;
+     
+    align-items: center; 
+     text-align: center;
+    row-gap: 10px;
+}
+span{
+    color: red;
+    
+}
+
+h2{
+    padding-top: 100px;
+}
+p{
+    font-size: 13px;
+    padding-top: 40px;
+}
+.btn{
+    padding-top: 30px;
+}
+
+.redBtn{
+    background-color: red;
+    width: 60px;
+    height: 20px;
+    border-radius: 15px;
+    color: white;
+}
+
+.whiteBtn{
+    background-color: white;
+    width: 60px;
+    height: 20px;
+    border-radius: 15px;
+    color: black;
+}
+
+.searchLocation{
+display: flex;
+/* justify-content: center; */
+padding-top: 50px;
+padding-bottom: 2git00px;
+}
+
+.text{
+    width:210px;
+    border: none;
+}
+.input i {
+    padding-right: 25px;
+}
+.input{
+    padding-top: 20px;
+    background-color: white;
+    width: 300px;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    position: relative;
+    right: 2px;
+    
+
+    
+}
+.location{
+    display: flex;
+    padding: 0 20px 0 20px;
+    font-size: 10px;
+    background-color: white;
+    color: rgb(107, 106, 106);
+    width: 300px;
+    padding-top: 20px;
+    height: 60px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    justify-content: space-between;
+    
+
+
+}
+
+#dashcube{
+    background-color: red;
+    width: 25px;
+    height: 25px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5px;
+    border-radius: 15px;
+}
